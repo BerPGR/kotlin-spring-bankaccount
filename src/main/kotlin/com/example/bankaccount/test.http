@@ -1,0 +1,22 @@
+POST http://localhost:8080/account
+Content-Type: application/json
+
+{
+    "name": "Bernardo",
+    "document": "123"
+}
+
+GET http://localhost:8080/account
+Content-Type: application/json
+
+PUT http://localhost:8080/account/123
+Content-Type: application/json
+
+{
+    "name": "Bernardo Matuchewski",
+    "document": "456",
+    "balance": "100"
+}
+
+DELETE http://localhost:8080/account/123
+Content-Type: application/json
